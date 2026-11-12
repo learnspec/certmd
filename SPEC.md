@@ -82,9 +82,9 @@ lang: en                                            # REQUIRED — BCP-47 code
 description: "Complete mastery of Python."          # optional — short summary
 image: ./cert-python-developer.svg                  # REQUIRED — path or URL to SVG file
 issuer:                                             # REQUIRED — issuer
-  name: Neuroneo
-  url: https://neuroneo.md
-  email: certifications@neuroneo.md
+  name: memoneo
+  url: https://memoneo.app
+  email: certifications@memoneo.app
 grade_levels:                                       # optional — grade thresholds
   pass: 0.65                                        # minimum score to pass
   merit: 0.80                                       # merit grade threshold
@@ -105,7 +105,7 @@ renewal:                                            # optional — renewal condi
     - type: exam
       quiz: ./exam-python-renewal.quiz.md
       passing_score: 0.65
-verification_url: https://neuroneo.md/verify/       # optional
+verification_url: https://memoneo.app/verify/       # optional
 alignment:                                          # optional — skill framework alignment
   - framework: ESCO
     url: https://esco.ec.europa.eu/...
@@ -205,9 +205,9 @@ lang: en
 description: "Complete mastery of Python, from fundamentals to advanced programming."
 image: ./cert-python-developer.svg
 issuer:
-  name: Neuroneo
-  url: https://neuroneo.md
-  email: certifications@neuroneo.md
+  name: memoneo
+  url: https://memoneo.app
+  email: certifications@memoneo.app
 grade_levels:
   pass: 0.65
   merit: 0.80
@@ -228,7 +228,7 @@ renewal:
     - type: exam
       quiz: ./exam-python-renewal.quiz.md
       passing_score: 0.65
-verification_url: https://neuroneo.md/verify/
+verification_url: https://memoneo.app/verify/
 alignment:
   - framework: ESCO
     url: https://esco.ec.europa.eu/en/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2Fb633c537
@@ -288,7 +288,7 @@ When the track completion conditions are satisfied, the player then evaluates th
 
 ## SVG Baking — Implementation Note
 
-As with BadgeMD, the Open Badges 3.0 standard supports **SVG baking** for certifications: the JSON-LD assertion (learner, date, grade, credits) is embedded inside the certification SVG. The resulting file is self-verifiable and shareable. This is a player implementation feature (Neuroneo), not a CertMD spec constraint.
+As with BadgeMD, the Open Badges 3.0 standard supports **SVG baking** for certifications: the JSON-LD assertion (learner, date, grade, credits) is embedded inside the certification SVG. The resulting file is self-verifiable and shareable. This is a player implementation feature (e.g. memoneo), not a CertMD spec constraint.
 
 ---
 
